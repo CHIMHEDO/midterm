@@ -1,0 +1,33 @@
+### Get All Departments
+GET http://localhost:3000/api/Departments
+
+### Create New Department
+POST http://localhost:3000/api/Departments
+Content-Type: application/json
+
+{
+  "DeptName": "Computer Science",
+  "FacultyName": "Engineering",
+  "OfficeLocation": "Building A, Room 101",
+  "HeadOfDept": "Dr. Smith"
+}
+
+
+### Get ตาม ID
+GET http://localhost:3000/api/Departments/2
+
+### Update 
+PUT http://localhost:3000/api/Departments/1
+Content-Type: application/json
+
+{
+  "DeptName": "Marketing (Updated)",
+  "FacultyName": "Business",
+  "OfficeLocation": "Building B",
+  "HeadOfDept": "Dr. Somchai"
+
+
+}
+
+### Delete 
+DELETE http://localhost:3000/api/Departments/4

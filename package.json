@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.6",
+    "better-sqlite3": "^12.6.2",
+    "express": "^5.2.1",
+    "hono": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.19.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
